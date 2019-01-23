@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+<style>
+.container {
+    overflow: hidden;
+    font-family: Arial;
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+body {
+    background-image:url("../2.jpg");
+  background-repeat: no-repeat;
+  }
+
+</style>
+	</head>
+<div class="container">
+		<h2><b><a href="../home.html">Home</a></b></h2>
+		</div>
+<div class="container">
+		<h2><b><a href="hotels list.html">Hotels</a></b></h2>
+		</div>
+		<img src="e.jpg" style="position:absolute; right:950 ;top:3" height=715 width=400/>
+		<form action="http://localhost/HTML Project/Hotels/insert.php"" method="GET">
+		<center><br><br><br><br><br><br><fieldset style="width:300px;text-align:center">
+		<h1><font color="black">ROOM ENQUIRY</h1></fieldset>
+		<fieldset style="width:300px;text-align:left"><br>Full Name: <input type="text" name="name" /> 
+  		<br><br>Address: <input type="text" name="address" /> 
+  		<br><br>Email Address: <input type="text" name="email" /> 
+  		<br><br>Phone Number: <input type="text" name="phone" /> 
+  		<br><br>City: <input type="text" name="city" /> 
+  		<br><br>Number Of Rooms: <input type="text" name="rooms" />
+		<br><br>Select Room Type: 
+		<select name="roomtype">
+			<option value="ac">A/C</option>
+			<option value="nac">Non-A/C</option>
+		</select> 
+  		<br><br>Number Of Persons: <input type="text" name="persons" /> 
+  		<br><br>Arrival Date: <input type="text" name="arrdate" /> 
+  		<br><br>Checkout Date: <input type="text" name="chkout" /> 
+  		<br><br>
+		<a href="..\insert.php"><button class="button button1">Submit</button></a>&nbsp
+ 		<a href="..\hotel enquiry.html"><button class="button button1">Reset</button></a>
+		</fieldset>
+		</form></center>
+	</body>
+</html>
