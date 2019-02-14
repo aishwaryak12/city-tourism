@@ -22,3 +22,11 @@ and open the template in the editor.
   height:  50%;
   padding: 10px;
  }
+ .footercontainer{
+     width:7000px;
+   height:200px;
+   background-color: black;
+   margin-left: 100px;
+   margin-right: 100px;
+     
+ }
